@@ -179,9 +179,7 @@ const ProgramPage = () => {
 
       {/* Main Schedule Content */}
       <div className="max-w-4xl mx-auto px-6 py-20 min-h-[400px]">
-        
-        {/* --- PLACEHOLDER MESSAGE (ACTIVE) --- */}
-        <div className="flex flex-col items-center justify-center text-center py-12 bg-white rounded-xl shadow-sm border border-gray-100">
+        {/* <div className="flex flex-col items-center justify-center text-center py-12 bg-white rounded-xl shadow-sm border border-gray-100">
           <div className="bg-blue-50 p-6 rounded-full mb-6 text-primary animate-pulse">
              <Hourglass size={48} />
           </div>
@@ -190,10 +188,10 @@ const ProgramPage = () => {
             We are currently finalizing the detailed agenda for {programData[activeDay].day}. 
             Please check back shortly for updates.
           </p>
-        </div>
+        </div> */}
 
-        {/* --- ORIGINAL SCHEDULE CODE (COMMENTED OUT FOR FUTURE USE) --- */}
-        {/* <div className="space-y-6">
+        {/* ORIGINAL SCHEDULE CODE (COMMENTED OUT FOR FUTURE USE) */}
+        <div className="space-y-6">
           {programData[activeDay].events.map((event, idx) => (
             <div 
               key={idx} 
@@ -228,7 +226,7 @@ const ProgramPage = () => {
             </div>
           ))}
         </div> 
-        */}
+       
 
       </div>
 
